@@ -1,0 +1,175 @@
+Script started on Thu Jun 27 12:08:07 2019
+[?1034h[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/testinggit$ [0mls
+week1_thurs_cs461_notes.txt
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/testinggit$ [0mls -A
+week1_thurs_cs461_notes.txt
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/testinggit$ [0mcd ..
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mls
+README.md		asciilines/		asciilines-resources/	testinggit/
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mc[Kls -A
+.git/			asciilines/		testinggit/
+README.md		asciilines-resources/
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mcd .git/[K
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls
+HEAD		config		hooks/		info/		objects/	refs/
+branches/	description	index		logs/		packed-refs
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls objects/i nfo/
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls
+HEAD		config		hooks/		info/		objects/	refs/
+branches/	description	index		logs/		packed-refs
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls -l HEAD
+-rw-r--r--  1 sharicemayer  staff  23 Jun 27 11:55 HEAD
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls refs/head s
+master
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mpwd
+/Users/sharicemayer/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mls
+HEAD		config		hooks/		info/		objects/	refs/
+branches/	description	index		logs/		packed-refs
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev/.git$ [0mcd ..
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mls
+README.md		asciilines/		asciilines-resources/	testinggit/
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31masciilines-resources/[m
+	[31masciilines/[m
+	[31mtestinggit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit add read[K[K[K[K.
+warning: adding embedded git repository: asciilines-resources
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> asciilines-resources[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached asciilines-resources[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+warning: adding embedded git repository: asciilines
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit submodule add  https://gitlab.com/pdx-cs-oss/asciilines-resources/tree/master/tests asciilines-resources/[K
+'asciilines-resources' already exists in the index
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit rm --cached a sciilines-resources/[K
+error: the following file has staged content different from both the
+file and the HEAD:
+    asciilines-resources
+(use -f to force removal)
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit rm --cached assciilines-resources[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   asciilines[m
+	[32mnew file:   asciilines-resources[m
+	[32mnew file:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mmodified:   asciilines[m (modified content)
+	[31mmodified:   testinggit/week1_thurs_cs461_notes.txt[m
+
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit rm --cached a sciilines
+error: the following file has staged content different from both the
+file and the HEAD:
+    asciilines
+(use -f to force removal)
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit rm --cached assciilines[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-cached asciilines[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[C[C[C[C[Cf--cached asciilines[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[C[C[C[C[C[C --cached asciilines[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[C[C[C[C[C[C[C
+
+rm 'asciilines'
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mls
+README.md		asciilines/		asciilines-resources/	testinggit/
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   asciilines-resources[m
+	[32mnew file:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31masciilines/[m
+
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mvim .gitignore
+[?1000h[?2004h[?1049h[?1h=[?2004h[1;53r[?12h[?12l[27m[29m[m[H[2J[?25l[52;1H".gitignore" [New File][2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1H[38;5;130m  1 [m
+[94m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [37;1H~                                                                                                   [38;1H~                                                                                                   [39;1H~                                                                                                   [40;1H~                                                                                                   [41;1H~                                                                                                   [42;1H~                                                                                                   [43;1H~                                                                                                   [44;1H~                                                                                                   [45;1H~                                                                                                   [46;1H~                                                                                                   [47;1H~                                                                                                   [48;1H~                                                                                                   [49;1H~                                                                                                   [50;1H~                                                                                                   [m[51;1H[1m[7m.gitignore                                                                        0,0-1          All[1;5H[?25h[?1000l[?1002h[?25l[m[53;90Hi[1;5H[53;90H [1;5H[53;1H[1m-- INSERT --[m[51;85H[1m[7m1   [1;5H[?25h[?25l[m.[51;12H[1m[7m[+][68C1,2 [1;6H[?25h[?25l[mg[51;85H[1m[7m3 [1;7H[?25h[?25l[mi[51;85H[1m[7m4 [1;8H[?25h[?25l[mt[51;85H[1m[7m5 [1;9H[?25h[?25l[mi[51;85H[1m[7m6 [1;10H[?25h[?25l[mg[51;85H[1m[7m7 [1;11H[?25h[?25l[mn[51;85H[1m[7m8 [1;12H[?25h[?25l[mo[51;85H[1m[7m9 [1;13H[?25h[?25l[mr[51;85H[1m[7m10[1;14H[?25h[?25l[me[51;86H[1m[7m1 [1;15H[?25h[?25l[m
+[38;5;130m  2 [m[2;5H[K[51;83H[1m[7m2,1  [2;5H[?25h[?25l[m
+[38;5;130m  3 [m[3;5H[K[51;83H[1m[7m3,[3;5H[?25h[?25l[m[94m~                                                                                                   [m[51;83H[1m[7m2,[2;5H[?25h[?25l[ma[51;85H[1m[7m2 [2;6H[?25h[?25l[ms[51;85H[1m[7m3 [2;7H[?25h[?25l[mc[51;85H[1m[7m4 [2;8H[?25h[?25l[mi[51;85H[1m[7m5 [2;9H[?25h[?25l[mi[51;85H[1m[7m6 [2;10H[?25h[?25l[ml[51;85H[1m[7m7 [2;11H[?25h[?25l[mi[51;85H[1m[7m8 [2;12H[?25h[?25l[mn[51;85H[1m[7m9 [2;13H[?25h[?25l[me[51;85H[1m[7m10[2;14H[?25h[?25l[ms[51;86H[1m[7m1 [2;15H[?25h[?25l[m-[51;86H[1m[7m2 [2;16H[?25h[?25l[mr[51;86H[1m[7m3 [2;17H[?25h[?25l[me[51;86H[1m[7m4 [2;18H[?25h[?25l[ms[51;86H[1m[7m5 [2;19H[?25h[?25l[mo[51;86H[1m[7m6 [2;20H[?25h[?25l[mu[51;86H[1m[7m7 [2;21H[?25h[?25l[mr[51;86H[1m[7m8 [2;22H[?25h[?25l[mc[51;86H[1m[7m9 [2;23H[?25h[?25l[me[51;85H[1m[7m20 [2;24H[?25h[?25l[ms[51;86H[1m[7m1 [2;25H[?25h[?25l[m
+[38;5;130m  3 [m[3;5H[K[51;83H[1m[7m3,1  [3;5H[?25h[m[53;1H[K[3;5H[?25l[53;90H^[[3;5H[?25h[?25l[53;90H  [3;5H[52;1H[K[51;85H[1m[7m0-1[3;5H[?25h[?25l[m[53;90HZ[3;5H[?25h[?25l[53;91HZ[3;5H[?1002l[?2004l[52;1H".gitignore"[53;90H[K[52;14H[New] 3L, 33C written
+
+[?2004l[?1l>[?25h[?1049l[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   asciilines-resources[m
+	[32mnew file:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31masciilines/[m
+
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit[K[K[Kvim .gitignore 
+[?1000h[?2004h[?1049h[?1h=[?2004h[1;53r[?12h[?12l[27m[29m[m[H[2J[?25l[52;1H".gitignore" 3L, 33C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1H[38;5;130m  1 [m.gitignore
+[38;5;130m  2 [masciilines-resources
+[38;5;130m  3 [m
+[94m~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [37;1H~                                                                                                   [38;1H~                                                                                                   [39;1H~                                                                                                   [40;1H~                                                                                                   [41;1H~                                                                                                   [42;1H~                                                                                                   [43;1H~                                                                                                   [44;1H~                                                                                                   [45;1H~                                                                                                   [46;1H~                                                                                                   [47;1H~                                                                                                   [48;1H~                                                                                                   [49;1H~                                                                                                   [50;1H~                                                                                                   [m[51;1H[1m[7m.gitignore                                                                        1,1            All[1;5H[?25h[?1000l[?1002h[?25l[m[53;90H~@k[1;5H[53;90H   [2;5H[51;83H[1m[7m2,[2;5H[?25h[?25l[m[53;90H^[[2;5H[?25h[?25l[53;90H  [2;5H[53;90H^[[2;5H[53;90H  [2;5H[?25h[?25l[53;90Hd[2;5H[?25h[?25l[53;91Hd[2;5H[53;90H  [2;5H[2;5H[K[3;1H[94m~                                                                                                   [m[51;12H[1m[7m[+][70C0-1[2;5H[?25h[?25l[m[53;90H^[[2;5H[?25h[?25l[53;90H  [2;5H[53;90H^[[2;5H[53;90H  [2;5H[?25h[?25l[53;90H:[2;5H[52;1H[K[53;90H[K[52;1H:[?2004h[?25hwq[?25l[?1002l[?2004l".gitignore" 2L, 12C written
+
+[?2004l[?1l>[?25h[?1049l[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mvim .gitignore [5Pgit statusvim .gitignore[4Pgit statusls[Kgit rm -f --cachedd asciilines[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[C[C[C[C[C-cached as[3Pciilines[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[C[7Pstatus
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm --cached assciilines-resources[A[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m[C[C[C[Csubmodule add https://gitlab.com/pdx-cs-oss/asciilines-resources/tree/master/tests asciilines-resources[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/smilinhawaiian/asciilines asciilines
+Adding existing repo at 'asciilines' to the index
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0mgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .gitmodules[m
+	[32mnew file:   asciilines[m
+	[32mnew file:   asciilines-resources[m
+	[32mnew file:   testinggit/week1_thurs_cs461_notes.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mmodified:   asciilines[m (modified content)
+	[31mmodified:   testinggit/week1_thurs_cs461_notes.txt[m
+
+[36;1mSharices-MacBook-Air:[32;1m~/Desktop/github-smilinhawaiian/CS461P-OpenSourceSoftwareDev$ [0m
